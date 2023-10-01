@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES</title>
+</head>
+<style>
+    .services {
+        display: flex;
+        background: black;
+
+    }
+
+    .main-text {
+        background: rgb(158, 156, 156);
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        margin: 5px auto;
+
+    }
+
+    .main-text p {
+        color: white;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .main-text h2 {
+        font-size: 74px;
+        line-height: 2;
+        margin-top: 50px;
+    }
+
+    .services-content {
+        margin: 10px 50px;
+        display: grid;
+        /* background-color: #6e289b38; */
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+        align-items: center;
+        gap: 2.5rem;
+        margin-top: 5rem;
+
+    }
+
+    .box {
+        background-color: #6e289b38;
+        width: 80%;
+        height: 80%;
+        padding: 35px 45px;
+        margin: 10px 10px;
+        border-radius: 8px;
+        transition: all 1s ease;
+    }
+
+    .box:hover {
+        background-color: rgba(216, 103, 184, 0.384);
+        border: 2px solid darkmagenta;
+        border-radius: 3px;
+    }
+
+    .box h3 {
+        font-size: 25px;
+        font-weight: 600;
+        color: turquoise;
+        margin-bottom: 15px;
+
+    }
+
+    .box p {
+        color: white;
+        font-size: 1rem;
+        line-height: 1.8;
+        margin-bottom: 15px;
+    }
+</style>
+
+<body>
+    <div class="main-text">
+        <h2><span>My</span>Skills</h2>
+    </div>
+    <section class="services" id="services">
+        <div class="services-content">
+            <div class="box">
+                <h3>Web Design</h3>
+                <p>My dedication to web design goes beyond just aesthetics; it encompasses the pursuit of a deeper
+                    understanding of user behavior and accessibility. I'm constantly learning and experimenting with
+                    design
+                    principles, color theory, typography, and responsive design techniques to create websites that not
+                    only
+                    look great but also provide an exceptional user experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <h3>Creative Design</h3>
+                <p>As I take my first steps into web development, I'm driven by a burning desire to transform ideas into
+                    visually captivating and interactive digital experiences.
+                    Every line of code I write, every element I design, is an opportunity to infuse creativity into the
+                    online world.
+                    creative mind is th key to create aesthetic website.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <h3>Web Development</h3>
+                <p>
+                    I'm an enthusiastic beginner diving into web development, eager to master HTML and CSS. Excited to
+                    craft
+                    visually appealing and responsive web pages while learning the fundamental building blocks of the
+                    digital world. Ready to embark on a creative journey in the world of coding and design</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

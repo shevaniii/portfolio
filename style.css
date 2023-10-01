@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro:ital,wght@0,200;1,300&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: rgb(206, 206, 206);
+    width: 434px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    height:100vh;
+}
+
+.sidebar nav {
+    padding: 10px;
+
+}
+.sidebar nav li {
+    
+    list-style: none;
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+    font-style:'Ubuntu' , sans-serif;
+}
+.sidebar li a:hover{
+    color:white;
+}
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgb(38, 0, 255); */
+    height: 58vh;
+    width: 80vw;
+    margin: 199px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.DevInfo{
+  display :flex;
+   justify-content:center;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+}
+.hello{
+  font-size:85px;
+}
+.name{
+font-size:70px;
+font-weight:bold;
+font-family: 'Ubuntu', sans-serif;
+}
+.about{
+font-size:50px;
+}
+.moreabout{
+    font-family:'Ubuntu', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    margin:6px 0px;
+}
+.buttons{
+margin-top:34px;
+
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #2f23e2;
+    color: white;
+    margin: 16px 11px;
+    font-weight:bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color:lightblue;
+    color:black;
+}
+.DevPic img{
+    height: 58vh;
+
+}
